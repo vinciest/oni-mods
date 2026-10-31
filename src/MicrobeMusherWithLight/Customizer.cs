@@ -16,6 +16,7 @@ namespace MightyVincent {
             light2D.shape = LightShape.Circle;
             light2D.drawOverlay = true;
             light2D.enabled = false;
+            light2D.autoRespondToOperational = false;
             go.AddOrGetDef<WorkingLightController.Def>();
         }
     }
